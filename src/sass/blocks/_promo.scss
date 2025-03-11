@@ -2,6 +2,17 @@
   min-height: 650px;
   padding: 21px 0 93px 0;
   background: url(../img/main.jpg) center (center/cover) no-repeat;
+  &__link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 18px;
+    a {
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
   @media screen and (max-width: 1024px) {
     background-image: url(../img/promo__bg.png);
   }
@@ -50,16 +61,5 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
-  }
-}
-&__link {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 18px;
-  a {
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: underline;
   }
 }
